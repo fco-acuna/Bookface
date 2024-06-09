@@ -47,14 +47,15 @@ gem "tzinfo-data", platforms: %i[ mswin mswin64 mingw x64_mingw jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
-# gem bulma
-gem 'bulma-rails', '~> 1.0'
 
 # gem simple-form
 gem 'simple_form', '~> 5.3'
 
 #gem guard
 gem 'guard', '~> 2.18', '>= 2.18.1'
+
+#gem bulma, CSS editor con flexbox
+gem 'bulma-rails', '~> 0.0.4.1'
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
