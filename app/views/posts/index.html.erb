@@ -1,1 +1,32 @@
-<h1 class="titulo-principal">Bienvenidos al Blog de Paquito</h1>
+<section class="hero is-primary is-medium">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <p class="title">Paquito´s Blog</p>
+      <p class="subtitle">Página de Inicio</p>
+      <%= link_to "Crear Nuevo Post", new_post_path, class:"button is-danger", id: "boton-agregar"%>
+    </div>
+  </div>
+</section>
+
+
+<div class="grid">
+  <% @posts.each do |post| %>
+    <div class="grid-container">
+      <div class="card">
+        <p><%= post.title %></p>
+        <p><%= link_to "Ver Post", post_path(post) %></p>
+      </div>
+    </div>
+  <% end %>
+</div>
+
+
+
+
+<!--<ul>
+  <% @posts.each do |post| %>
+    <li>
+      <h2><%= post.title %></h2>
+    </li>
+  <% end %>
+</ul>

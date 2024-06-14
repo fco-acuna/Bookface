@@ -1,0 +1,50 @@
+.grid {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Define las columnas del grid */
+    grid-gap: 8px; /* Espacio entre las tarjetas */
+  }
+
+  .grid-container {
+    display: contents; /* Elimina el contenedor de la rejilla del flujo del documento */
+  }
+
+  .card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 95px;
+    position: relative; /* Añade relleno a las tarjetas */
+  }
+
+  .card p {
+    margin: 0; /* Elimina el margen predeterminado para los párrafos dentro de las tarjetas */
+  }
+
+  .card a {
+    position: absolute; /* Posiciona el enlace de forma absoluta */
+    bottom: 10px; /* Distancia del enlace al borde inferior de la tarjeta */
+    left: 10px; /* Distancia del enlace al borde izquierdo de la tarjeta */
+    color: blue;
+    text-decoration: none;
+  }
+
+.title {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 12px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#subtitle {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+#boton-agregar {
+    margin: 25px;
+}

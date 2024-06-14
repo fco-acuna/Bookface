@@ -1,0 +1,22 @@
+h1 {
+    font-size: 55px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section {
+    padding: 15px;
+}
+
+.field {
+    margin: 15px;
+}
+
+.input::placeholder {
+    color: #b3b2b2; /* Change the color of the placeholder text */
+    font-style: italic; /* Optionally, apply italic style to the placeholder text */
+  }
+
+  .link-container { 
+    margin: 8px;
+  }
