@@ -1,25 +1,22 @@
-# README
+This is a very simple excercise to practice CRUD architecture. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The goal was to build a very simple Blog Interface where anyone could write and publish a simple text post. 
 
-Things you may want to cover:
+Tools used: 
 
-* Ruby version
+* Ruby on Rails
+* HTML
+* CSS
+* SCSS
+* SQLite
+* Javascript
 
-* System dependencies
+"Home Page" 
+![image](https://github.com/fco-acuna/Bookface/assets/132393529/34662735-ff01-4f6f-a94f-b2be659f296a)
 
-* Configuration
+"New Post"
+![image](https://github.com/fco-acuna/Bookface/assets/132393529/37c989a8-405b-4651-9dbb-75da41796087)
 
-* Database creation
+"Post"
+![image](https://github.com/fco-acuna/Bookface/assets/132393529/0d4f1a89-9f61-44f4-b7cc-8d3faf933d5e)
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# Bookface
